@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-search-term-harvester",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Search-Term Harvester \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-search-term-harvester",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-search-term-harvester",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "advertising"
+  ]
+}

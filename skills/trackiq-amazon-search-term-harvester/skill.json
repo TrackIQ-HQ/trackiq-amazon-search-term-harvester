@@ -1,0 +1,36 @@
+{
+  "name": "trackiq-amazon-search-term-harvester",
+  "title": "TrackIQ: Amazon Search-Term Harvester",
+  "category": "advertising",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Finds the Amazon search terms that already convert above break-even but have no keyword of their own, and turns them into an upload-ready Sponsored Products bulk file with exact-match keywords and suggested bids. Checks every candidate against the existing targets so nothing is proposed twice. Use when the user asks about harvesting search terms, promoting search terms to keywords, mining auto cam",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_ad_groups",
+      "get_search_terms",
+      "get_targets",
+      "list_marketplaces"
+    ],
+    "filesystem": true,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-search-term-harvester",
+  "license": "MIT"
+}
