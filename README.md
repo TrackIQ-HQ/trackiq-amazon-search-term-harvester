@@ -4,7 +4,7 @@ The mirror of the Wasted-Spend Sweeper. That one cuts what is not paying; this o
 
 A search term converting above break-even inside an auto or broad campaign is being bought at whatever bid the match type happens to produce. Given its own exact-match keyword it can be bid deliberately.
 
-Part of **Amazon Advertising** in the
+Part of **Amazon Sponsored Ads** in the
 [TrackIQ skills catalog](https://github.com/TrackIQ-HQ/amazon-seller-skills).
 
 Built as an [Agent Skill](https://code.claude.com/docs/en/skills). Runs in
