@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-search-term-harvester",
   "title": "TrackIQ: Amazon Search-Term Harvester",
   "category": "advertising",
-  "version": "1.0.0",
-  "updated": "2026-09-18",
+  "version": "1.0.1",
+  "updated": "2026-10-06",
   "summary": "Finds the Amazon search terms that already convert above break-even but have no keyword of their own, and turns them into an upload-ready Sponsored Products bulk file with exact-match keywords and suggested bids. Checks every candidate against the existing targets so nothing is proposed twice.",
   "changelog": "First public release.",
   "requires": {
